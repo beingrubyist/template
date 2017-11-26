@@ -1,0 +1,18 @@
+@mixin transparent {
+	background: transparent;
+}
+
+.top-bar {
+	&.transparent {
+		@include transparent;
+		& ul {
+			@include transparent;
+		}
+	}
+
+	& li {
+		& > a {
+			color: $white;
+		}
+	}
+}
