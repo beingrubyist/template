@@ -7,6 +7,7 @@ $cell-height: 100;
 	position: absolute;
 	width: 100%;
 	z-index: -1;
+	top: -10px;
 	& .cell {
 		content: '';
 		height: $cell-height * 1px;
@@ -67,5 +68,13 @@ $cell-height: 100;
 }
 
 .subscribe {
-	height: 500px;
+	height: 400px;
+	background: transparent;
+	padding: 5rem;
+	margin-bottom: 6rem;
+	font-family: 'Raleway', sans-serif;
+	color: $white;
+	& h3 {
+		font-weight: 800;
+	}
 }
